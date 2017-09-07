@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/main_layout_view"
+    tools:context="com.habittracker.android.habittracker.MainActivity">
+
+
+    <TextView
+        android:id="@+id/habit_text_view"
+        style="@style/main_text_view"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        style="@style/fab_view"
+        app:fabSize="mini"
+        app:srcCompat="@android:drawable/ic_menu_edit"/>
+
+</RelativeLayout>

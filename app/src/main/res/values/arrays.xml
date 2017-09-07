@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_category">
+        <item>@string/cat_education</item>
+        <item>@string/cat_free_time</item>
+        <item>@string/cat_shopping</item>
+        <item>@string/cat_sport</item>
+        <item>@string/cat_work</item>
+    </string-array>
+
+</resources>

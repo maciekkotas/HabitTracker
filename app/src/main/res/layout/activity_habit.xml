@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/habit_layout_view">
+
+        <TextView
+            style="@style/first_text_view"
+            android:text="@string/edit_text_activity"/>
+
+        <EditText
+            android:id="@+id/edit_text_activity"
+            style="@style/edit_text_avtivity"
+            android:hint="Activity"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/habit_layout_view">
+
+        <TextView
+            style="@style/second_text_view"
+            android:text="@string/during"/>
+
+        <Spinner
+            android:id="@+id/category_spinner"
+            style="@style/spinner_view"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/habit_layout_view">
+
+        <TextView
+            style="@style/third_text_view"
+            android:text="@string/for_duration"/>
+
+        <EditText
+            android:id="@+id/edit_duration_activity"
+            style="@style/edit_text_duration"
+            android:hint="Duration"/>
+
+        <TextView
+            style="@style/fourth_text_view"
+            android:text="@string/hour"/>
+
+    </LinearLayout>
+</LinearLayout>

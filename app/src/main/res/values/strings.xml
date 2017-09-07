@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">"Habit Tracker "</string>
+    <string name="add_habit">Add Habit</string>
+    <string name="save">Save</string>
+    <string name="edit_text_activity">I was: </string>
+    <string name="during">during: </string>
+    <string name="for_duration">for: </string>
+    <string name="hour">h</string>
+    <string name="habits">Habits</string>
+    <string name="activity">Activity</string>
+    <string name="category">Category</string>
+    <string name="cat_work">Work</string>
+    <string name="cat_free_time">Free Time</string>
+    <string name="cat_education">Education</string>
+    <string name="cat_sport">Sport</string>
+    <string name="cat_shopping">Shopping</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+
+</resources>
